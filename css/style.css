@@ -1380,9 +1380,18 @@ label {
   font-weight: 600;
   letter-spacing: -1px;
   border-bottom: 1px solid #424544;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
+  /* margin-bottom: 30px; */
 }
+
+.row>.col-sm-2>.footer-widget:first-child{
+    margin-bottom: 50px;
+}
+
+.row>.col-sm-2>.footer-widget>.widget-title{
+    margin-bottom: 10px;
+}
+
 .footer-widget {
 }
 .footer-widget ul {
@@ -1422,7 +1431,7 @@ label {
 .footer .contact li i {
   display: block;
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 0;
   width: 30px;
   font-size: 16px;
