@@ -2270,5 +2270,9 @@ ul.widget-recent-post {
     
       .team-img img {
         width: 220px;
-      }    
+      }
+      /* contact page iframe */
+      iframe{
+        width: 380px;
+      }
 }
