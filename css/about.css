@@ -736,6 +736,10 @@ label {
 .cta-mail {
 }
 
+abbr{
+  cursor: alias;
+}
+
 /*--------------------------------
 4.8 Image Hover Effect 
 ----------------------------------*/
@@ -2277,10 +2281,6 @@ ul.widget-recent-post {
   .team-img > .carousel > .carousel-inner> .carousel-item > a > img{
     width: 360px;
     background-color: #019852 !important;
-  }
-
-  iframe {
-    width: 380px;
   }
 }
 

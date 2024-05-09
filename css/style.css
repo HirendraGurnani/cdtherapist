@@ -2237,10 +2237,24 @@ ul.widget-recent-post {
     list-style: none;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .navigation {
     float: none;
   }
+
+  .logo-hyperlink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .logo-hyperlink > img:first-child {
+    margin-bottom: 10px;
+  }
+  .logo-hyperlink > img:last-child {
+    margin-left: 50px;
+  }
+
   .comment-info {
     padding-left: 10px;
   }
@@ -2252,8 +2266,8 @@ ul.widget-recent-post {
     list-style: none;
   }
 
-  .team-img img {
-    width: 220px;
+  .team-img>img {
+    width: 320px;
   }
 }
 @media screen and (max-width: 412px) {
