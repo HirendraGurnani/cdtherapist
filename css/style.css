@@ -855,7 +855,11 @@ label {
 }
 .call-block {
 }
-.call-no {
+.call-block>a{
+  color: #fff;
+  &:hover{
+    color: #0b4485;
+  }
 }
 .mail-block {
 }
@@ -1141,6 +1145,11 @@ label {
 #navigation.small-screen ul ul li.active > a {
   color: #474747;
 }
+
+#navigation>ul>.active{
+  background-color: #11b9ca;
+}
+
 #navigation.small-screen ul ul,
 #navigation.small-screen ul ul ul,
 #navigation.small-screen.align-right ul ul {

@@ -859,7 +859,11 @@ abbr{
 }
 .call-block {
 }
-.call-no {
+.call-block>a{
+  color: #fff;
+  &:hover{
+    color: #0b4485;
+  }
 }
 .mail-block {
 }
@@ -1016,6 +1020,11 @@ abbr{
  top: 23px;
  height: 0;
 }*/
+
+#navigation>ul>.active{
+  background-color: #11b9ca;
+}
+
 #navigation ul ul {
   position: absolute;
   left: -9999px;
