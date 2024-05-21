@@ -809,7 +809,7 @@ a img.aligncenter {
   line-height: 18px;
 }
 
-.call-block > a {
+.text-block > a {
   color: #fff;
   &:hover {
     color: #0b4485;
